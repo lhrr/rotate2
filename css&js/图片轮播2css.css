@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.main{
+	width: 520px;
+	height: 280px;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.image{
+	width: 520px;
+	height: 280px;
+	position: relative;
+}
+
+.image1{
+	display: inline-block;
+	width: 520px;
+	height: 280px;
+	background-image: url(../图片轮播2素材/image1.jpg);
+	position: absolute;
+}
+.image_one{
+	display: block;
+}
+
+.image2{
+	display: inline-block;
+	width: 520px;
+	height: 280px;
+	background-image: url(../图片轮播2素材/image2.jpg);
+	position: absolute;
+	display: none;
+}
+.image3{
+	display: inline-block;
+	width: 520px;
+	height: 280px;
+	background-image: url(../图片轮播2素材/image3.jpg);
+	position: absolute;
+	display: none;
+}
+.image4{
+	display: inline-block;
+	width: 520px;
+	height: 280px;
+	background-image: url(../图片轮播2素材/image4.jpg);
+	position: absolute;
+	display: none;
+}
+.image5{
+	display: inline-block;
+	width: 520px;
+	height: 280px;
+	background-image: url(../图片轮播2素材/image5.jpg);
+	position: absolute;
+	display: none;
+}
+
+.button_left{
+	width: 30px;
+	height: 60px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -30px;
+	transform: rotate(180deg);
+	background: url(../图片轮播2素材/image6.png) no-repeat center center;
+	cursor: pointer;
+}
+
+.button_left:hover{
+	background-color: #696969;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+
+.button_right{
+	width: 30px;
+	height: 60px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -30px;
+	background: url(../图片轮播2素材/image6.png) no-repeat center center;
+	cursor: pointer;
+}
+.button_right:hover{
+	background-color: #696969;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+
+.dots{
+	position: absolute;
+	bottom: 16px;
+	right: 0;
+	cursor: pointer;
+}
+.dots span{
+	display: inline-block;
+	background-color: black;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	text-align: right;
+	line-height: 12px;
+	box-shadow: 0 0 0 2px white inset;
+	margin-right: 4px;
+}
+
+.dots span.dot_active{
+	background-color: white;
+	box-shadow: 0 0 0 2px black inset;
+}
